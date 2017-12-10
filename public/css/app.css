@@ -192,10 +192,12 @@ body.resume-bk {
     color: #39c981 !important;
     font-weight: bold;
 }
-
+#home{
+    display: none;
+}
 
 #resume{
-    display: none;
+    display: block;
 }
 #service{
     display: none;
