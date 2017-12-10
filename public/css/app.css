@@ -193,11 +193,11 @@ body.resume-bk {
     font-weight: bold;
 }
 #home{
-    display: none;
+    display: block;
 }
 
 #resume{
-    display: block;
+    display: none;
 }
 #service{
     display: none;
