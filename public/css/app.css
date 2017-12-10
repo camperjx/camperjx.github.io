@@ -1,7 +1,7 @@
 /*h3 {*/
 /*color: blue;*/
 /*}*/
-body.resume-bk{
+body.resume-bk {
     background-color: #f5f5f5;
     background-image: url(../img/main_bg.png);
     background-size: cover;
@@ -15,7 +15,7 @@ body.resume-bk{
 
 .header ul.menu {
     list-style-type: none;
-    text-align: left;
+    text-align: right;
     width: 90%
 }
 
@@ -44,28 +44,30 @@ body.resume-bk{
 
 .header col-right {
 
-    width: 65%;
+    width: 75%;
     float: right;
 }
-.container{
+
+.container {
     margin: 0 auto;
 }
+
 .profile-card {
 
-    width: 80%;
+    width: 95%;
     margin: 0 auto; /* align center */
     border-radius: 15px;
     /*padding: 3px;*/
 }
 
 .col-left {
-    width: 50%;
+    width: 45%;
     float: left;
 
 }
 
 .col-right {
-    width: 50%;
+    width: 55%;
     float: right;
 
 }
@@ -83,35 +85,73 @@ body.resume-bk{
 }
 
 .profile-card .card-header {
-    /*padding: 3px;*/
+    padding: 30px;
     background-color: #39c981;
     position: relative;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
+    background-image: url("../img/main_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.profile-card .card-header .profile-info h3 {
+.profile-card .card-header .profile-info {
+    vertical-align: center;
 
+    margin: 80px 0px 0px 0px;
+    text-align: center;
+    z-index: 100;
+}
+
+.profile-card .card-header .profile-info h2 {
+    font-size: 33px;
     color: white;
 }
 
-.profile-card .card-header .profile-info i {
-
+.profile-card .card-header .profile-info > div.short-description  {
+    margin: 25px 25px 25px 25px;
+    font-size: 19px;
     color: white;
+    margin: 15px 15px
+}
+
+.profile-card .card-header .profile-info .social-links a {
+    border-radius: 22px;
+    text-align: center;
+    background-color: white;
+    color: #9e9e9e;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    font-size: 19px;
+    z-index: 100;
+}
+
+.profile-card .card-header .profile-info .social-links a i {
+    line-height: 24px;
+    z-index: 100;
 }
 
 .profile-card .card-header .img-wrapper {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto; /* align center */
-    margin: 5px 5px 5px 5px;
+    /*max-width: 200px;*/
+    width: 90%;
+    height: 90%;
+    /*margin: 0 auto; !* align center *!*/
+    margin: 0px 0px -39px 0px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 2px;
 }
+.profile-card .card-header .img-wrapper a{
+    /*max-width: 200px;*/
+    width:100%;
+    padding: 0px 0px 0px 0px;
 
+}
 .profile-card .card-header .img-wrapper img {
 
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 80%;
 
 }
 
@@ -153,14 +193,14 @@ body.resume-bk{
     font-weight: bold;
 }
 
-.overlay {
-
-    background: url("../img/main_bg.png") no-repeat 100% 100%;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0px;
-    z-index: 0;
-}
+/*.overlay {*/
+    /*background-color: #000000;*/
+    /*background: url("../img/main_bg.png") no-repeat 100% 100%;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0px;*/
+    /*!*z-index: 1;*!*/
+/*}*/
 
