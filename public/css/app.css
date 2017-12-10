@@ -108,7 +108,7 @@ body.resume-bk {
     color: white;
 }
 
-.profile-card .card-header .profile-info > div.short-description  {
+.profile-card .card-header .profile-info > div.short-description {
     margin: 25px 25px 25px 25px;
     font-size: 19px;
     color: white;
@@ -142,12 +142,14 @@ body.resume-bk {
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 2px;
 }
-.profile-card .card-header .img-wrapper a{
+
+.profile-card .card-header .img-wrapper a {
     /*max-width: 200px;*/
-    width:100%;
+    width: 100%;
     padding: 0px 0px 0px 0px;
 
 }
+
 .profile-card .card-header .img-wrapper img {
 
     width: 100%;
@@ -192,27 +194,32 @@ body.resume-bk {
     color: #39c981 !important;
     font-weight: bold;
 }
-#home{
+
+#home {
     display: block;
 }
 
-#resume{
+#resume {
     display: none;
 }
-#service{
+
+#service {
     display: none;
 }
-#blog{
+
+#blog {
     display: none;
 }
-#contact{
+
+#contact {
     display: none;
 }
-.profile-card .card-header-v2{
+
+.profile-card .card-header-v2 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     padding: 30px 19px 30px 19px;
-    margin:0px auto;
+    margin: 0px auto;
     background-color: #39c981;
     background-image: url("../img/main_bg.png");
     background-size: cover;
@@ -220,28 +227,40 @@ body.resume-bk {
     background-attachment: scroll;
     background-position: center center;
     background-repeat: no-repeat;
-    width:97%;
+    width: 97%;
 }
-.profile-card .card-header-v2 h2{
+
+.profile-card .card-header-v2 h2 {
     font-family: sans-serif;
     /*padding: 20px 10px 20px 10px;*/
     text-align: center;
-    margin:0px auto;
+    margin: 0px auto;
+}
+.profile-card .container.board{
+    background-color: #ffffff;
+}
+.profile-card .card-body-v2 {
+
+    padding: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    margin: 0px 0px 5px 3px;
+    width: 100%;
+    overflow: hidden;
 }
 
-.profile-card .card-body-v2{
+.profile-card .card-body-v2 .block {
+    width: 100%;
 
-    margin:10px 20px 10px 20px;
-    width:100%;
 }
+
 /*.overlay {*/
-    /*background-color: #000000;*/
-    /*background: url("../img/main_bg.png") no-repeat 100% 100%;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0px;*/
-    /*!*z-index: 1;*!*/
+/*background-color: #000000;*/
+/*background: url("../img/main_bg.png") no-repeat 100% 100%;*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*position: absolute;*/
+/*top: 0;*/
+/*left: 0px;*/
+/*!*z-index: 1;*!*/
 /*}*/
 
